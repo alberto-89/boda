@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Pacifico|Yellowtail|Parisienne');
+
+.navbar {
+    min-height: 100px;
+}
+ul.navbar-nav > li > a {
+    line-height: 100px;
+}
+.navbar-toggler {
+  margin-top: 30px;
+}
+img.logo {
+    padding-top: 10px;
+    width: 200px;
+    height: auto;
+}
+
+footer{
+	background-color: #343a40;
+	min-height: 10vh;
+	padding-top: 2rem;
+	
+}
+
+.dashCover{
+	min-height: 50vh;
+	background-image: url(../img/dashCover.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.btn-center{
+	background-color: #ff7070;
+	padding: 1.5rem;
+}
+
+footer h5{
+	color: #ff7070;
+}
+
+footer li{
+	color: #747575;
+	list-style: none;
+}
+
+footer hr{
+	 margin: 0px;
+	 border-top: 1px solid #8b8b8b;
+	 width: 90%;
+}
+
+footer span{
+	color: #ffffff;
+}
+
+footer img{
+	max-width: 50px;
+	float: left;
+	margin-left: .5rem;
+	margin-top: 1rem;
+}
+
+footer label{
+	color: #ff7070;
+}
+
+footer small{
+	color: #ffffff;
+}
+
+.footer{
+	background-color: #ff7070;
+	color: #343a40;
+}
+
+.footer small{
+	color: #343a40;
+}
+
+.bodaBacground{
+	background-image: url('../img/bodaBacground.jpg');
+	background-size: cover;
+	background-position: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-radius: 1rem;
+}
+
+.xvBacground{
+	background-image: url('../img/xvBacground.jpg');
+	background-size: cover;
+	background-position: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-radius: 1rem;
+}
+
+.eventoBoda{
+	font-family: 'Parisienne', cursive;
+	font-size: 5rem;
+	color: #ffffff;
+	text-shadow: 3px 3px 2px #000000;
+}
+
+.eventoXV{
+	font-family: 'Courgette', cursive;
+	font-size: 5rem;
+	color: #e61afe;
+	text-shadow: 3px 3px 2px #ffffff;
+}
+
+.boda h2{
+	font-family: 'Parisienne', cursive;
+	font-size: 2rem;
+}
+
+.boda h3{
+	font-family: 'Courgette', cursive;
+	color: #28b6bf;
+	font-size: 5rem;
+}
+
+.boda span{
+color: #000000;
+}
+
+.faces{
+	font-size: 6rem;
+}
+
+.green{
+	color: #28a745;
+}
+
+.yellow{
+	color: #ffc107;
+}
+
+.red{
+	color: #dc3545;
+}
+
+.rosa{
+	color: #ff7070;
+}
+
+.confirmar{
+	background-color: #ffffff;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-radius: 2rem;
+	box-shadow: .5rem .5rem 1rem #000000;
+	font-family: 'Courgette', cursive;
+	text-align: center;
+}
+
+.confirmar h1{
+	color: #ff7070;
+}
+
+.confirmado{
+	font-family: 'Courgette', cursive;
+}
+
+h1.confirmado {
+	color: #28b6bf;
+}
+
+p a{
+	color: #ff7070;
+}
+
+p a:hover{
+	color: #ff7070;
+}
+
+header.welcome{
+	min-height: 75vh;
+	background-image: url(../img/welcomeCover.jpg);
+	background-size: cover;
+	background-position: center;
+}
+ header.welcome h1, h2, h3, h4, h5, h6{
+ 	font-family: 'Pacifico', cursive;
+ }
+
+ .titulo {
+ 	font-size: 4rem;
+ 	color: #ffffff;
+ 	text-shadow: 1px 2px 2px #000000;
+ 	border: 3px solid #ffffff ;
+ }
+
+ .welcomeHeader{
+ 	height: 100%;
+ }
