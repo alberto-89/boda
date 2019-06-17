@@ -4,19 +4,24 @@
 <header class="welcome d-flex justify-content-center align-items-center">
 	<section class="container">
 		<div class="row">
-			<article class="col-md-6">
-				<h2 class="titulo text-center">
-					Evita gastos de más
-				</h2>
+			<article class="col-md-9">
+				<h3>Organiza tus invitados</h3>
+				<h3>Aprovecha tus recursos</h3>
+				<h3>Relajate.</h3>
 			</article>
-			<article class="col-md-6">
-				<h2 style="color: ">Queremos ayudarte a organizar mejor tu evento</h2>
-				<a class="btn btn-success" href="{{route('register')}}">
-					<i class="fas fa-glass-cheers"></i> Crear Evento Gratis
-				</a>
+			<article class="col-md-3">
+				{!! Form::open(['route'=>'confirmaciones.show','method'=>'get']) !!}
+					<div class="form-group">
+						{!! Form::label('codigo','Confirma tu asistencia:') !!}
+						{!! Form::text('codigo',null,['class'=>'form-control','placeholder'=>'Ingresa el Código','required','autofocus']) !!}
+					</div>
+					<div class="form-group">
+						{!! Form::submit('Confirmar',['class'=>'btn btn-success']) !!}
+					</div>
+				{!! Form::close() !!}
 			</article>
-	</section>
 		</div>
+	</section>
 </header>
 @endsection
 @section('contenido')

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette|Pacifico|Yellowtail|Parisienne');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Pacifico|Yellowtail|Parisienne|Roboto');
 
 .navbar {
     min-height: 100px;
@@ -176,15 +176,16 @@ p a:hover{
 
 header.welcome{
 	min-height: 75vh;
-	background-image: url(../img/welcomeCover.jpg);
+	color: #ffffff;
+	background: rgb(52,58,64);
+	background: -webkit-linear-gradient(rgba(52,58,64,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+	background: -o-linear-gradient(rgba(52,58,64,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(rgba(52,58,64,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+	/*background-image: url(../img/welcomeCover.jpg);
 	background-size: cover;
-	background-position: center;
-}
- header.welcome h1, h2, h3, h4, h5, h6{
- 	font-family: 'Pacifico', cursive;
- }
-
- .titulo {
+	background-position: center;*/
+		}	
+  .titulo {
  	font-size: 4rem;
  	color: #ffffff;
  	text-shadow: 1px 2px 2px #000000;
@@ -193,4 +194,21 @@ header.welcome{
 
  .welcomeHeader{
  	height: 100%;
+ }
+
+
+ .admin{
+ 	background-color: #343a40;
+ 	min-height: 100vh;
+ 	padding-left: 1.5rem;
+ }
+
+ .admin h1, h2, .admin h3, h4, h5, h6{
+ 	font-family: 'Roboto', sans-serif;
+ 	color: #fff;
+ }
+
+ .welcome form label{
+ 	color: #ffffff;
+ 	font-weight: bold;
  }
