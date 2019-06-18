@@ -177,7 +177,11 @@ p a:hover{
 header.welcome{
 	min-height: 75vh;
 	color: #ffffff;
-	background: rgb(52,58,64);
+	right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: rgb(52,58,64);
 	background: -webkit-linear-gradient(rgba(52,58,64,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
 	background: -o-linear-gradient(rgba(52,58,64,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
 	background: linear-gradient(rgba(52,58,64,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
@@ -212,3 +216,7 @@ header.welcome{
  	color: #ffffff;
  	font-weight: bold;
  }
+
+ #myVideo {
+  
+}

@@ -2,11 +2,14 @@
 @section('titulo','Inicio')
 @section('welcome')
 <header class="welcome d-flex justify-content-center align-items-center">
+	<video autoplay muted loop id="myVideo">
+	  <source src="{{asset('video/bride.mp4')}}" type="video/mp4">
+	</video>
 	<section class="container">
 		<div class="row">
 			<article class="col-md-9">
-				<h3>Organiza tus invitados</h3>
-				<h3>Aprovecha tus recursos</h3>
+				<h3>Organiza tus invitados.</h3>
+				<h3>Aprovecha tus recursos.</h3>
 				<h3>Relajate.</h3>
 			</article>
 			<article class="col-md-3">
